@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GitHub Profile Finder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1 class="title">GitHub Profile Finder</h1>
+
+  <div class="controls">
+    <form class="user-form" id="form">
+      <input type="text" id="search" placeholder="Search a GitHub User" />
+    </form>
+    <div class="buttons">
+      <button id="restart">Restart</button>
+      <button id="toggle-theme">Toggle Theme</button>
+    </div>
+  </div>
+
+  <div id="loader" class="loader hidden"></div>
+  <main id="main"></main>
+
+  <script src="script.js"></script>
+</body>
+</html>
